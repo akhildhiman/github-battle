@@ -1,0 +1,14 @@
+.home-page {
+    text-align: center;
+}
+.btn {
+    padding:0 30px;
+    background: rgb(168, 170, 185);
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover {
+    background: coral;
+}
