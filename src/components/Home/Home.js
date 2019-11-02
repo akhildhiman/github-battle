@@ -6,7 +6,7 @@ function Home() {
     return (
         <div className="home-page">
             <h1>Github Battle: Battle your friends... and stuff</h1>
-            <Link to="/Battle" as="button" className="btn"></Link>
+            <Link to="/Battle" as="button" className="btn" style={{ textDecoration: "none" }}>Submit</Link>
         </div>
     )
 }

@@ -7,16 +7,16 @@ class Battle extends Component {
 
     render() {
         return (
-            <div className="player-section">
+            <div className="battle-section">
                 <div>
                     <h2>Player One</h2>
-                    <input type="text" placeholder="github username"></input>
+                    <input type="text" placeholder="github username" />
                     <button type="submit">Submit</button>
                 </div>
 
                 <div>
                     <h2>Player Two</h2>
-                    <input type="text" placeholder="github username"></input>
+                    <input type="text" placeholder="github username" />
                     <button type="submit">Submit</button>
                 </div>
             </div>
